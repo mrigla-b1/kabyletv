@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f6fa;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #F1EFEF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+.n1{
+
+    margin-left: 35%;
+    margin-right: 3%;
+}
+.n{
+    padding-top: 20px;
+    width: 170px;
+    height: 90px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.n:hover{
+    background-color: #CCC8AA;
+    cursor: pointer;
+}
+
+
+    
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+  
+  /* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #d5d0d0c9;; /* Color of the thumb */
+    border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+h1 {
+    text-align: center; /* Center the text horizontally within the h1 element */
+    padding-top: 50px;
+    padding-bottom: 50px;
+	font-weight: 550;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    
+     /* Make the container take up the full viewport height */
+}
+
+/* Style the iframe (you can adjust the dimensions and styles as needed) */
+iframe {
+    width: 55%; /* Set the desired width */
+    height: 500px; /* Set the desired height */
+    border: 1px solid #ccc;
+    margin-bottom: 70px;
+}
+.center{
+   
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+@media (min-width: 200px) and (max-width: 709px) {
+
+
+
+    .center{
+        width: 95%;
+      }
+      .n {
+        padding-top: 30px;
+        font-weight: 600;
+
+        width: 170px;
+        height: 90px;
+        font-size: 17px;
+        text-align: center;
+    }
+    iframe{
+        height: 300px;
+        width:100%;
+    }
+
+
+}
+
+.navbar{
+    min-height: 100px;
+    width: 100%;
+}
+a{
+    font-size: 20px;
+  }
