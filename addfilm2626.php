@@ -28,8 +28,11 @@
             <label for="">le lien : </label>
             <input type="text" name="lien" id="lien">
             <br>
-            <label for="type">type (A/K): </label>
-            <input type="text" name="type" id="type">
+            <label for="type">Type:</label>
+			<select name="type" id="type">
+				<option value="K">Kabyle (K)</option>
+				<option value="A">Algerien (A)</option>
+			</select>
             <br>
             Select an image to upload:
             <input type="file" name="fileToUpload" id="fileToUpload">
